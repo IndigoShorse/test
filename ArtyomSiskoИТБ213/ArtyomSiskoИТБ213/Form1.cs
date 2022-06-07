@@ -1,13 +1,4 @@
-﻿namespace ArtyomSiskoИТБ213
-{
-    public partial class index : System.Windows.Forms.Form
-    {
-        private const int n = 16;
-        private const int x = 4;
-
-        private int ind_0 = 0, ind_1 = 0, ind_2 = 1;
-        private int match_1, match_2;
-        private int game = 1;
+﻿
 
         private Team[] all_teams = new Team[n];
         private Team[] half_final = new Team[4];
